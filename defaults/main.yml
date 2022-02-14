@@ -1,4 +1,4 @@
 ---
-# set_SELINUX_to_enforcing/defaults/main.yml
+# set_SELINUX_to_permissive/defaults/main.yml
 
 selinux_policy: 'targeted'
