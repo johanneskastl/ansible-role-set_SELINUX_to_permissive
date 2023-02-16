@@ -13,7 +13,7 @@
   ansible.builtin.meta: flush_handlers
 
 - name: 'Check output of getenforce after reboot'
-  ansible.builtin.shell: 'getenforce'
+  ansible.builtin.command: 'getenforce'
   register: 'getenforce_output'
   failed_when: '"Permissive" not in getenforce_output.stdout'
   changed_when: 'false'
