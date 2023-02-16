@@ -10,19 +10,19 @@ galaxy_info:
   min_ansible_version: 2.4
 
   platforms:
-  - name: EL
-    versions:
-    - 7
-    - 8
-  - name: opensuse
-    versions:
-    - 15
-  - name: Rocky
-    versions:
-    - 8
-  - name: SLES
-    versions:
-    - 15
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: opensuse
+      versions:
+        - 15
+    - name: Rocky
+      versions:
+        - 8
+    - name: SLES
+      versions:
+        - 15
 
   galaxy_tags: []
 
