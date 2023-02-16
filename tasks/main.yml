@@ -9,8 +9,8 @@
     - 'Reboot'
     - 'Wait for the machine(s) to be ready again'
 
-# flush handlers to trigger reboot now
-- ansible.builtin.meta: flush_handlers
+- name: 'Flush handlers to trigger reboot now'
+  ansible.builtin.meta: flush_handlers
 
 - name: 'Check output of getenforce after reboot'
   ansible.builtin.shell: 'getenforce'
